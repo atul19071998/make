@@ -1,0 +1,161 @@
+ /* *{
+        border: 1px solid red;
+      } */
+       /* body{
+        background-color: violet;
+       } */
+       .room-design{
+        width:100%;
+        overflow-x: hidden;
+        /* border:1px solid red; */
+      
+        
+       }
+        .room-designleft{
+          
+          height:100%;
+       
+          /* border:1px solid red; */
+        }
+        .room-designright{
+         
+          height:100%;
+          /* border:1px solid red; */
+        }
+                
+        .room-designright video{
+          width:100%;
+         
+        }      
+        .room-designleft .room-content{
+         padding: 1rem;
+          width:100%;
+          /* height:20%; */
+          /* border:1px solid red; */
+
+        }
+        .room-content{
+          /* background-color: whitesmoke; */
+          /* display:grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap:0.5rem; */
+         width:100%;
+         
+        
+          /* border:1px solid red; */
+        }
+        .room-content-l,.room-content-m ,.room-content-r{
+          width:100%;
+          /* height:80px; */
+          display: flex;
+           justify-content: space-evenly;
+           align-items: center;
+          
+           border-radius: 5px;
+
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+          
+          /* border:1px solid red; */
+        }
+        .room-contentimg{
+          width:100%;
+          /* height:30%; */
+          /* border:1px solid red; */
+          background-color: whitesmoke;
+        }
+        .room-contentimg{
+          width:100%;
+          /* border:1px solid red; */
+          /* height:40%; */
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          height:250px;
+          overflow-y: auto;
+          padding: 1rem;
+      
+        }
+        .room-contentitem1{
+          width:100%;
+          height:80px;
+          /* border:1px solid red; */
+          overflow-x: hidden;
+          overflow-y: hidden;
+        }
+        .room-contentitem1 img{
+          width:130px;
+          height:80px;
+          padding: 0.5rem;
+        
+        }
+        .room-bottom{
+          width:100%;
+          height:40%;
+          padding: 0.5rem;
+          /* background-color: cadetblue; */
+        }
+        .room-bottomcontent{
+          width:100%;
+          /* border:1px solid red; */
+          height:40%;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+        .room-bottomitem1{
+          width:100%;
+         height:120px;
+         /* background-color: rgb(114, 236, 185); */
+          /* border:1px solid red; */
+          display: flex;
+          padding: 1rem;
+        }
+        .room-bottomiteml{
+          width:50%;
+        
+          
+         /* border:1px solid red; */
+
+
+        }
+        .room-bottomitemr{
+          width:50%;
+         padding: 1rem;
+         font-size: 15px;
+         /* border:1px solid red; */
+
+        }
+        
+        .room-bottomiteml img{
+          width:100px;
+        
+          padding: 0.5rem;
+        }
+        .save{
+          border:5px solid orange;
+         background-color: rgb(234, 236, 81);
+          border-radius: 5px;
+          margin-top: 1rem;
+          font-size: 15px;
+          padding: 1rem;
+         color: white;
+          font-weight: 600;
+        }
+        .fa-solid{
+          color: rgb(248, 33, 105);
+          font-size: 1.5rem;
+       
+        }
+     .nav-item{
+      padding: 1rem;
+      border: none;
+     }
+     .room-contentitem1{
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+     }
+     .room-contentitem1:hover{
+      background-color: rgb(243, 146, 20);
+     }
+         
+    #displayed-image{
+      width:100%;
+      height:100vh;
+    }
