@@ -6,6 +6,8 @@
        } */
        .room-design{
         width:100%;
+        height:100%;
+    
         overflow-x: hidden;
         /* border:1px solid red; */
       
@@ -89,7 +91,7 @@
         }
         .room-bottom{
           width:100%;
-          height:40%;
+           
           padding: 0.5rem;
           /* background-color: cadetblue; */
         }
@@ -157,5 +159,5 @@
          
     #displayed-image{
       width:100%;
-      height:100vh;
+      height:100%;
     }
