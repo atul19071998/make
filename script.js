@@ -8,3 +8,4 @@ thumbnails.forEach(thumbnail => {
         displayedImage.alt = thumbnail.alt;
     });
 });
+
